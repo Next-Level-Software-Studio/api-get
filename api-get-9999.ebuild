@@ -40,7 +40,6 @@ src_prepare() {
 	rm -f .gitignore || die
 	rm -f *.ebuild || die
 	rm -f metadata.xml || die
-	rm -f pyproject.toml || die
 }
 
 src_install() {
